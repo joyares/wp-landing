@@ -1,0 +1,4 @@
+2026-07-14T11:40:05+00:00 WARNING Email "new_order" for order #37 failed to send: Could not instantiate mail function. CONTEXT: {"email_type":"new_order","status":"failed","recipient":"admin","order":37}
+2026-07-14T11:40:05+00:00 NOTICE Email "customer_processing_order" for order #37 not sent: no_recipient CONTEXT: {"email_type":"customer_processing_order","status":"skipped","recipient":"guest","reason":"no_recipient","order":37}
+2026-07-14T11:40:47+00:00 WARNING Email "cancelled_order" for order #37 failed to send: Could not instantiate mail function. CONTEXT: {"email_type":"cancelled_order","status":"failed","recipient":"admin","order":37}
+2026-07-14T11:40:47+00:00 NOTICE Email "customer_cancelled_order" for order #37 not sent: email type is disabled CONTEXT: {"email_type":"customer_cancelled_order","status":"disabled","recipient":"guest","order":37}
